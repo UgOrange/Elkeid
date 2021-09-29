@@ -25,7 +25,7 @@ Elkeid 后台大体包含4个模块：
 - [docker体验文档](docs/docker-install-zh_CN.md)
 
 ## API接口文档
-Manger API通过token做鉴权，所有接口调用前都需要先用 /api/v1/user/login 接口，获取到token。
+Manager API通过token做鉴权，所有接口调用前都需要先用 /api/v1/user/login 接口，获取到token。
 ```
 curl --location --request POST 'http://127.0.0.1:6701/api/v1/user/login' \
 --data-raw '{
