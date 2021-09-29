@@ -7,7 +7,7 @@
 
 Elkeid Driver 主要是为信息安全需求而设计的。
 
-Elkeid Driver 主要通过 Kprobe Hook Kernel Funcion 来提供丰富而准确的数据收集功能，包括内核级进程执行探测，特权升级监控，网络审计等等。 并且支持 Linux namespace，因此对容器监控有着很好的实现。与传统的UserSpace HIDS相比，Elkeid由于驱动的存在提供了更全面的信息，并提高了性能。
+Elkeid Driver 主要通过 Kprobe Hook Kernel Function 来提供丰富而准确的数据收集功能，包括内核级进程执行探测，特权升级监控，网络审计等等。 并且支持 Linux namespace，因此对容器监控有着很好的实现。与传统的UserSpace HIDS相比，Elkeid由于驱动的存在提供了更全面的信息，并提高了性能。
 
 凭借其出色的数据收集能力，Elkeid Driver还可以支持沙盒，蜜罐和审计等需求。
 
